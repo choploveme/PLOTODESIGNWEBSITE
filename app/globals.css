@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #080808;
+  color: #f7f3ea;
+  font-family: var(--font-sans);
+  letter-spacing: 0;
+}
+
+::selection {
+  background: #d9d2c4;
+  color: #080808;
+}
+
+img {
+  display: block;
+}
+
+@layer components {
+  .section {
+    @apply mx-auto w-full max-w-site px-4 md:px-8;
+  }
+
+  .eyebrow {
+    @apply mb-5 text-xs font-medium uppercase text-smoke;
+  }
+
+  .button {
+    @apply inline-flex min-h-12 items-center justify-center border border-ink px-6 text-xs font-medium uppercase transition duration-200 hover:bg-ink hover:text-paper;
+  }
+
+  .button-muted {
+    @apply inline-flex min-h-12 items-center justify-center border border-line px-6 text-xs font-medium uppercase text-bone transition duration-200 hover:border-ink hover:text-ink;
+  }
+}
