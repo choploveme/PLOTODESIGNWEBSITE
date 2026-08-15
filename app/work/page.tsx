@@ -6,7 +6,7 @@ import { caseStudies } from "@/data/work";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Selected PLOTO work across AI-assisted fashion campaign visuals, launch films, and brand worldbuilding."
+    "Selected PLOTO work across editorial stills, motion, beauty, campaigns, and digital lookbooks."
 };
 
 export default function WorkPage() {
@@ -14,8 +14,8 @@ export default function WorkPage() {
     <main>
       <PageIntro
         eyebrow="Work"
-        title="Selected campaigns, visual systems, and synthetic fashion worlds."
-        body="Each project is built as a directed image system: editorial enough to hold attention, structured enough to scale."
+        title="Selected visual worlds, built from one clear direction."
+        body="Each project connects concept, casting, styling, and generative production into imagery that can move across formats."
       />
       <section className="section pb-24 md:pb-36">
         <div className="grid gap-14 md:grid-cols-2">

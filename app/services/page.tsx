@@ -6,7 +6,7 @@ import { process, services } from "@/data/services";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "PLOTO services include fashion creative direction, AI-assisted campaign visuals, brand worldbuilding, and artist collaborations."
+    "Seven PLOTO services spanning stills, motion, beauty, campaigns, concept art, lookbooks, and custom AI models."
 };
 
 export default function ServicesPage() {
@@ -14,8 +14,8 @@ export default function ServicesPage() {
     <main>
       <PageIntro
         eyebrow="Services"
-        title="Creative direction for fashion brands entering an AI-native visual era."
-        body="PLOTO pairs editorial taste with generative workflows, giving brands a visual system that is expressive, controllable, and built to travel."
+        title="Seven services. One visual system."
+        body="Available à la carte or as one complete program, each service connects back to a clear creative direction and a coherent brand world."
       />
       <section className="section pb-20 md:pb-32">
         <div className="grid gap-px bg-line md:grid-cols-2">

@@ -70,7 +70,7 @@ export default async function CaseStudyPage({ params }: Props) {
         <div className="relative aspect-[4/5] overflow-hidden md:aspect-[16/9]">
           <Image
             src={study.image}
-            alt={`${study.title} case study hero visual`}
+            alt={study.imageAlt}
             fill
             priority
             sizes="100vw"

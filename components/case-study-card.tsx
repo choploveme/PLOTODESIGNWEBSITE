@@ -14,7 +14,7 @@ export function CaseStudyCard({
       <div className="relative aspect-[4/5] overflow-hidden bg-graphite md:aspect-[5/6]">
         <Image
           src={study.image}
-          alt={`${study.title} campaign visual`}
+          alt={study.imageAlt}
           fill
           priority={priority}
           sizes="(min-width: 1024px) 42vw, 100vw"
