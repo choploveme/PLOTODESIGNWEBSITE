@@ -1,28 +1,43 @@
 export const services = [
   {
-    title: "Fashion Creative Direction",
+    title: "Stills & Key Visuals",
     description:
-      "Campaign concepts, visual language, mood systems, casting direction, styling references, and production-ready art direction."
+      "From one key visual to a complete series for launches, social campaigns, and visual-direction testing."
   },
   {
-    title: "AI-Assisted Campaign Visuals",
+    title: "AI Motion & Fashion Film",
     description:
-      "Editorial stills, launch films, social-first assets, synthetic locations, product worlds, and model-aware visual exploration."
+      "Turn a still visual world into short-form motion with fashion rhythm and brand continuity."
   },
   {
-    title: "Brand Worldbuilding",
+    title: "Product & Beauty Visuals",
     description:
-      "Narrative systems, seasonal story architecture, image rules, prompt libraries, and visual identity extensions for fashion brands."
+      "Balance product truth with brand storytelling, from hero imagery to narrative-led campaign content."
   },
   {
-    title: "Artist & Brand Collaborations",
+    title: "Campaign Visuals",
     description:
-      "AI-native collaboration formats connecting fashion houses, independent artists, musicians, creators, and cultural platforms."
+      "Connect concept, casting, hero visuals, and social assets into one coherent brand world."
+  },
+  {
+    title: "AI Moodboards & Concept Art",
+    description:
+      "Align direction before production to reduce friction, revisions, and cost."
+  },
+  {
+    title: "Lineups & Lookbooks",
+    description:
+      "Translate a collection concept into cohesive styling imagery, product sequences, and digital lookbooks."
+  },
+  {
+    title: "Custom AI Models",
+    description:
+      "Create consistent, reusable digital model identities aligned across hair, makeup, styling, and character."
   }
 ];
 
 export const process = [
-  "Read the brand language, audience, product, and cultural context.",
-  "Build an image system with references, prompts, tests, and visual constraints.",
-  "Direct final assets across still, motion, social, retail, and collaboration formats."
+  "Define the brand language, audience, product, and cultural context.",
+  "Build a visual system through references, concepts, tests, and clear creative constraints.",
+  "Translate one direction across stills, motion, social content, and digital formats."
 ];

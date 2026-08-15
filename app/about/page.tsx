@@ -6,7 +6,7 @@ import { SectionHeading } from "@/components/section-heading";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "PLOTO is a U.S.-based AI fashion creative studio focused on visual storytelling, brand worlds, and collaborations."
+    "PLOTO is a New York-based fashion creative and brand visual studio working across creative direction, visual strategy, and generative production."
 };
 
 export default function AboutPage() {
@@ -14,8 +14,8 @@ export default function AboutPage() {
     <main>
       <PageIntro
         eyebrow="About"
-        title="A fashion creative studio built for the new image economy."
-        body="Based in the U.S., PLOTO works with emerging and established brands to create authored campaign visuals with AI as part of the creative process."
+        title="A New York–based fashion creative and brand visual studio."
+        body="PLOTO brings creative direction, fashion fluency, and generative technology into one production-ready visual system."
       />
       <section className="section pb-20 md:pb-32">
         <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-end">
@@ -31,10 +31,11 @@ export default function AboutPage() {
           <div>
             <SectionHeading label="Position" index="01" />
             <p className="text-2xl leading-relaxed text-bone md:text-3xl">
-              We believe AI changes the pace of fashion imagery, but not the
-              need for taste, restraint, and a clear creative point of view.
-              PLOTO exists to make generative work feel directed, tactile, and
-              culturally specific.
+              We work across creative direction, visual strategy, and
+              generative production to create distinctive brand worlds for
+              fashion and culture. From concept development, casting, and
+              styling to still imagery, motion, and social content, we
+              translate one clear idea across every format.
             </p>
           </div>
         </div>
@@ -42,9 +43,9 @@ export default function AboutPage() {
       <section className="section pb-24 md:pb-36">
         <div className="grid gap-px bg-line md:grid-cols-3">
           {[
-            ["01", "Human authorship remains the source of the work."],
-            ["02", "Generative systems should be edited with discipline."],
-            ["03", "Fashion worlds must feel memorable before they become scalable."]
+            ["01", "Creative direction gives every image a point of view."],
+            ["02", "Visual systems keep one idea coherent across formats."],
+            ["03", "Generative production expands what a brand world can become."]
           ].map(([number, text]) => (
             <article key={number} className="bg-paper p-6 md:p-8">
               <p className="text-xs uppercase text-smoke">{number}</p>

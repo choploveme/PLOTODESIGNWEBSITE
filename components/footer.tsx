@@ -10,17 +10,21 @@ export function Footer() {
             PLOTO
           </Link>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-smoke">
-            AI fashion creative direction, campaign systems, visual storytelling,
-            and artist collaborations.
+            New York perspective, creative direction, and generative production
+            for fashion and culture.
           </p>
         </div>
         <div className="flex flex-wrap gap-5 text-xs font-medium uppercase text-bone">
           <a href={`mailto:${site.email}`}>{site.email}</a>
-          {site.socials.map((social) => (
-            <a key={social.label} href={social.href}>
-              {social.label}
-            </a>
-          ))}
+          {site.socials.map((social) =>
+            "href" in social ? (
+              <a key={social.label} href={social.href}>
+                {social.label}
+              </a>
+            ) : (
+              <span key={social.label}>{social.label}</span>
+            )
+          )}
         </div>
       </div>
     </footer>
