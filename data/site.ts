@@ -6,6 +6,7 @@ export const site = {
     "PLOTO is a New York-based fashion creative and brand visual studio building distinctive, scalable visual systems through creative direction and generative production.",
   nav: [
     { label: "Work", href: "/work" },
+    { label: "Showreel", href: "/showreel" },
     { label: "Services", href: "/services" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" }
