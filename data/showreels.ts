@@ -1,9 +1,9 @@
 export const showreelCategories = [
   "All",
-  "Product",
-  "Beauty",
+  "Collection Campaign",
   "Creative Direction",
-  "Collection Campaign"
+  "Beauty",
+  "Product"
 ] as const;
 
 export type ShowreelCategory = (typeof showreelCategories)[number];

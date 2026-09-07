@@ -59,9 +59,9 @@ test("reels use only the four client-facing content categories", () => {
 test("the filter bar exposes all work followed by the four categories", () => {
   assert.deepEqual(showreelCategories, [
     "All",
-    "Product",
-    "Beauty",
+    "Collection Campaign",
     "Creative Direction",
-    "Collection Campaign"
+    "Beauty",
+    "Product"
   ]);
 });
